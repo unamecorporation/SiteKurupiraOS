@@ -1,0 +1,252 @@
+/* kurupira colors */
+.k-cian-darken{
+    background-color: #2C3E50 !important;
+}
+.k-cian-darken{
+    color: #2C3E50 !important;
+}
+
+.k-cian{
+    background-color: #2980B9 !important;
+}
+.k-cian{
+    color: #2980B9 !important;
+}
+
+.k-green{
+    background-color: #A6DB34 !important;
+}
+.k-green{
+    color: #A6DB34 !important;
+}
+
+.k-red{
+    background-color: #E74C3C !important;
+}
+.k-red{
+    color: #E74C3C !important;
+}
+
+.k-grey{
+    background-color: #ECF0F1 !important;
+}
+.k-grey{
+    color: #ECF0F1 !important;
+}
+
+
+/* kurupira font */
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local(Josefin Sans Thin), url("../fonts/joesfinsans/JosefinSans-Thin.ttf");
+  src: url("../fonts/joesfinsans/JosefinSans-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local(Josefin Sans Light), url("../fonts/joesfinsans/JosefinSans-Light.ttf");
+  src: url("../fonts/joesfinsans/JosefinSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local(Josefin Sans Regular), url("../fonts/joesfinsans/JosefinSans-Regular.ttf");
+  src: url("../fonts/joesfinsans/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local(Josefin Sans SemiBold), url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf");
+  src: url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: local(Josefin Sans Bold), url("../fonts/joesfinsans/JosefinSans-Bold.ttf");
+  src: url("../fonts/joesfinsans/JosefinSans-Bold.ttf") format("truetype");
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif; /* definindo fonte no html */
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.font-thin {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+}
+
+.font-light {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.font-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+}
+
+.font-semibold {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+.font-bold {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+
+/* code edits */
+
+code{
+    overflow: auto;
+    white-space: nowrap;
+    width: 860px;
+    background-color: #F1F1F1;
+    border: 1px solid #9F9F9F;
+    margin-bottom: 10px;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+/* link edits */
+
+a{
+    color: #2980B9;
+    -webkit-transition:  1.5s;
+    -moz-transition:  1.5s;
+    transition: 1.5s;
+}
+
+a:hover{
+    color: #2C3E50;
+    -webkit-transition:  1.5s;
+    -moz-transition:  1.5s;
+    transition: 1.5s;
+}
+
+
+/* blockquote edits */
+
+blockquote{
+    border-left: 5px solid #2C3E50;
+}
+
+
+/* selection edits */
+
+p::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+p::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+h1::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+h1::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+h2::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+h2::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+h3::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+h3::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+h4::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+h4::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+h5::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+h5::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+h6::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+h6::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+i::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+i::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+a::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+a::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+code::selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+} 
+
+code::-moz-selection{ 
+    background: #2C3E50; 
+    color: #fff; 
+}
+
+
+/* lists edits */
+
+ul li{
+    list-style-type: disc !important;
+}
+
+ol li{
+    list-style-type: upper-roman !important;
+}
