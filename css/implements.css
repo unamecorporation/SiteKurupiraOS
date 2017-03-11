@@ -40,31 +40,31 @@
 @font-face {
   font-family: "Josefin Sans";
   src: local(Josefin Sans Thin), url("../fonts/joesfinsans/JosefinSans-Thin.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Thin.ttf") format("truetype");
+  src: url("../fonts/joesfinsans/JosefinSans-Thin.ttf") format("truetype") !important;
 }
 
 @font-face {
   font-family: "Josefin Sans";
   src: local(Josefin Sans Light), url("../fonts/joesfinsans/JosefinSans-Light.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Light.ttf") format("truetype");
+  src: url("../fonts/joesfinsans/JosefinSans-Light.ttf") format("truetype") !important;
 }
 
 @font-face {
   font-family: "Josefin Sans";
   src: local(Josefin Sans Regular), url("../fonts/joesfinsans/JosefinSans-Regular.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Regular.ttf") format("truetype");
+  src: url("../fonts/joesfinsans/JosefinSans-Regular.ttf") format("truetype") !important;
 }
 
 @font-face {
   font-family: "Josefin Sans";
   src: local(Josefin Sans SemiBold), url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf") format("truetype");
+  src: url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf") format("truetype") !important;
 }
 
 @font-face {
   font-family: "Josefin Sans";
   src: local(Josefin Sans Bold), url("../fonts/joesfinsans/JosefinSans-Bold.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Bold.ttf") format("truetype");
+  src: url("../fonts/joesfinsans/JosefinSans-Bold.ttf") format("truetype") !important;
 }
 
 html {
