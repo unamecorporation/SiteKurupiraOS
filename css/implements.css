@@ -1,36 +1,47 @@
 /* kurupira colors */
+
+/* 
+colors doc: 
+    primary: #2C3E50
+    secundary: #2980B9
+
+colors kurupira:
+    primary: #E74C3C
+    secundary: #2C3E50
+*/
+
 .k-cian-darken{
     background-color: #2C3E50 !important;
 }
-.k-cian-darken{
+.k-cian-darken-text{
     color: #2C3E50 !important;
 }
 
 .k-cian{
     background-color: #2980B9 !important;
 }
-.k-cian{
+.k-cian-text{
     color: #2980B9 !important;
 }
 
 .k-green{
     background-color: #A6DB34 !important;
 }
-.k-green{
+.k-green-text{
     color: #A6DB34 !important;
 }
 
 .k-red{
     background-color: #E74C3C !important;
 }
-.k-red{
+.k-red-text{
     color: #E74C3C !important;
 }
 
 .k-grey{
     background-color: #ECF0F1 !important;
 }
-.k-grey{
+.k-grey-text{
     color: #ECF0F1 !important;
 }
 
@@ -113,6 +124,16 @@ code{
     display: block;
 }
 
+/* lists edits */
+
+ul.doc-ul li{
+    list-style-type: disc !important;
+}
+
+ol.doc-ol li{
+    list-style-type: upper-roman !important;
+}
+
 
 /* link edits */
 
@@ -134,7 +155,7 @@ a:hover{
 /* blockquote edits */
 
 blockquote{
-    border-left: 5px solid #2C3E50;
+    border-left: 5px solid #E74C3C;
 }
 
 
@@ -143,7 +164,12 @@ blockquote{
 p::selection{ 
     background: #2C3E50; 
     color: #fff; 
-} 
+}
+
+blockquote::selection{
+    background: #2C3E50; 
+    color: #fff; 
+}
 
 p::-moz-selection{ 
     background: #2C3E50; 
@@ -241,12 +267,19 @@ code::-moz-selection{
 }
 
 
-/* lists edits */
+/* navbar edits */
 
-ul li{
-    list-style-type: disc !important;
+nav li a{
+    transition-duration: 0.1s
 }
 
-ol li{
-    list-style-type: upper-roman !important;
+nav li a:hover {
+    color: white;
+    background-color: #2C3E50;
+    border-bottom: 5px solid white;
+    transition-duration: 0.1s
 }
+
+ nav li a.active{
+     border-bottom: 5px solid white;
+ }
