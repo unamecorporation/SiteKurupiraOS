@@ -286,6 +286,15 @@ code::-moz-selection{
 }
 
 
+/* button edits */
+
+a.btn-k:hover{
+    color: white;
+    border-bottom: 5px solid white;
+    transition-duration: 0.1s;
+ }
+
+
 /* navbar edits */
 
 nav li a{
@@ -310,9 +319,4 @@ nav li a:hover {
      height: 300px
  }
 
- .parallax-open-source a.btn-parallax:hover{
-    color: white;
-    border-bottom: 5px solid white;
-    transition-duration: 0.1s;
- }
 

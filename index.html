@@ -18,12 +18,19 @@
         <div class="navbar-fixed">
             <nav class="k-red">
                 <div class="nav-wrapper">
-                <a href="#!" class="brand-logo left">Logo</a>
-                <ul class="right">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
                     <li class=""><a class="active" href="#">Home</a></li>
                     <li class=""><a href="#">Equipe</a></li>
                     <li class=""><a href="#">Docs & Tools</a></li>
-                    <li><a href="#" class=" waves-effect waves-light btn-large k-cian-darken font-semibold">Baixe agora</a></li>
+                    <li><a href="#" class="waves-effect waves-light btn-large k-cian-darken font-semibold">Baixe agora</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-nav">
+                    <li><a href="#" class="waves-effect waves-light btn-large k-cian-darken font-semibold">Baixe agora</a></li>
+                    <li class=""><a class="active" href="#">Home</a></li>
+                    <li class=""><a href="#">Equipe</a></li>
+                    <li class=""><a href="#">Docs & Tools</a></li>
                 </ul>
 
                 </div>
@@ -50,7 +57,7 @@
                         Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a valorização de 
                         fatores subjetivos faz parte de um processo.
                     </p>
-                    <button class="waves-effect waves-light btn k-cian-darken font-bold hoverable">BAIXE AGORA</button>
+                    <a class="waves-effect waves-light btn btn-k k-cian-darken font-bold hoverable">BAIXE AGORA</a>
                 </div>
                 <div class="col hide-on-small-only m5">
                     <img class="responsive-img" src="img/curupira.png">
@@ -119,10 +126,10 @@
                             Todas estas questões, devidamente ponderadas, levantam dúvidas sobreTodas estas questões, devidamente ponderadas, levantam dúvidas sobre
                             Todas estas questões, devidamente ponderadas, levantam dúvidas sobre
                         </p>
-                        <a href="button" class="btn-large btn-parallax k-red font-semibold">
+                        <a href="button" class="btn-large btn-k k-red font-semibold">
                             <i class="mdi mdi-github-circle"></i> GITHUB
                         </a>
-                        <a href="button" class="btn-large btn-parallax k-cian-darken font-bold">
+                        <a href="button" class="btn-large btn-k k-cian-darken font-bold">
                             <i class="mdi mdi-github-circle"></i> CONTRIBUA
                         </a>
                     </div>
@@ -130,6 +137,8 @@
             </div>
             <div class="parallax"><img src="img/wallpaper3.jpg"></div>
         </article>
+
+
 
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
