@@ -302,3 +302,17 @@ nav li a:hover {
  nav li a.active{
      border-bottom: 5px solid white;
  }
+
+ 
+ /* opensource - article */
+
+ .parallax-open-source{
+     height: 300px
+ }
+
+ .parallax-open-source a.btn-parallax:hover{
+    color: white;
+    border-bottom: 5px solid white;
+    transition-duration: 0.1s;
+ }
+
