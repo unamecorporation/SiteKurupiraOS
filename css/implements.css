@@ -322,8 +322,13 @@ nav li a.active{
 
 /* carousel edits */
 
+.carousel{
+    height: 500px;
+    margin-top: -150px; 
+}
+
 .carousel .carousel-item{
-    width: 400px;
+    width: 450px;
 }
 
 .carousel ul li.indicator-item.active{
