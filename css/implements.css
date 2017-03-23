@@ -291,32 +291,46 @@ code::-moz-selection{
 a.btn-k:hover{
     color: white;
     border-bottom: 5px solid white;
-    transition-duration: 0.1s;
+    transition: 0.1s;
  }
 
 
 /* navbar edits */
 
-nav li a{
+nav ul li a{
     transition-duration: 0.1s
 }
 
-nav li a:hover {
+nav ul li a:hover {
     color: white;
     background-color: #2C3E50;
     border-bottom: 5px solid white;
     transition-duration: 0.1s
 }
 
- nav li a.active{
+nav li a.active{
      border-bottom: 5px solid white;
- }
+}
 
  
- /* opensource - article */
+/* opensource - article */
 
- .parallax-open-source{
-     height: 300px
- }
+.parallax-open-source{
+     height: 350px
+}
+ 
 
+/* carousel edits */
+
+.carousel .carousel-item{
+    width: 400px;
+}
+
+.carousel ul li.indicator-item.active{
+      background-color: #E74C3C !important;
+}
+
+.carousel ul li.indicator-item{
+      background-color: #2C3E50 !important;
+}
 

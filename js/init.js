@@ -1,2 +1,6 @@
-$('.parallax').parallax();
-$(".button-collapse").sideNav();
+(function($){
+  $(function(){
+    $('.parallax').parallax();
+    $('.carousel').carousel({duration: 1, indicators: true});
+     });
+})(jQuery);
