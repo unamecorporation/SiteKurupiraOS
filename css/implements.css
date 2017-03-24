@@ -295,6 +295,13 @@ a.btn-k:hover{
  }
 
 
+ /* material icons edits */
+
+ a.mdi{
+     cursor: pointer;
+ }
+
+
 /* navbar edits */
 
 nav ul li a{
