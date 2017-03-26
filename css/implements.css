@@ -288,11 +288,13 @@ code::-moz-selection{
 
 /* button edits */
 
-a.btn-k:hover{
+.btn-k:hover{
     color: white;
     border-bottom: 5px solid white;
     transition: 0.1s;
  }
+
+
 
 
  /* material icons edits */
@@ -319,13 +321,6 @@ nav li a.active{
      border-bottom: 5px solid white;
 }
 
- 
-/* opensource - article */
-
-.parallax-open-source{
-     height: 350px
-}
- 
 
 /* carousel edits */
 
@@ -344,5 +339,73 @@ nav li a.active{
 
 .carousel ul li.indicator-item{
       background-color: #2C3E50 !important;
+}
+
+
+/* forms edits */
+
+.input-field label { 
+  color: #ECF0F1;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #2C3E50;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #2C3E50;
+  box-shadow: 0 1px 0 0 #2C3E50;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #2C3E50;
+  box-shadow: 0 1px 0 0 #2C3E50;
+}
+
+
+/* contador */
+
+@media only screen and (max-width: 452px){
+    .parallax-slide{
+        height: 550px
+    }
+}
+
+@media only screen and (min-width: 453px){
+    .parallax-slide{
+        height: 500
+    }
+}
+.contagem{
+    border-radius: 10px;
+}
+
+.numero {
+color: #000000;
+font-size: 22px;
+text-align: center;
+border-radius: 5px;
+margin-bottom: -30px;
+}
+
+.legenda {
+font-size:12px;
+text-align: center;
+margin-bottom: -20px;
+margin-top: -48px;
+}
+
+
+/* opensource - article */
+@media only screen and (max-width: 452px){
+    .parallax-open-source{
+        height: 430px
+    }
+}
+
+@media only screen and (min-width: 453px){
+    .parallax-open-source{
+        height: 300px
+    }
 }
 

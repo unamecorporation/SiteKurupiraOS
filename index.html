@@ -17,7 +17,7 @@
         <div class="navbar-fixed">
             <nav class="k-red">
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo left">Logo</a>
+                    <a href="#!" class="brand-logo left">KurupiraOS</a>
                     <ul class="right">
                         <li class=""><a class="active" href="#">Home</a></li>
                         <li class=""><a href="#">Equipe</a></li>
@@ -29,10 +29,45 @@
         </div>
           
         <!-- slide parallax -->
-        <div class="parallax-container">
+        <div class="parallax-container parallax-slide">
             <br><br><br>
             <div class="center container">
-                <h2 class=" font-bold white-text text-shadow-2">O 1º S.O dos estudantes de InfoSec</h2>
+                <h2 class=" font-bold white-text text-shadow-2">
+                    Bem vindo ao novo mundo, ao mundo de ideias colaborativas.
+                </h2>
+                <div class="contagem white">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="numero" id="dia"></div>
+                            </td>
+                            </td>
+                            <td>
+                                <div class="numero" id="hora"></div>
+                            </td>
+                            <td>
+                                <div class="numero" id="minuto"></div>
+                            </td>
+                            <td>
+                                <div class="numero" id="segundo"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="legenda">Dias</p>
+                            </td>
+                            <td>
+                                <p class="legenda">Horas</p>
+                            </td>
+                            <td>
+                                <p class="legenda">Min</p>
+                            </td>
+                            <td>
+                                <p class="legenda">Seg</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="parallax"><img src="img/wallpaper.jpg"></div>
         </div>
@@ -45,8 +80,8 @@
                 <div class="col s12 m7">
                     <h3 class="font-bold k-red-text">Sobre o kurupiraOS</h3>
                     <p class="flow-text">
-                        Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a valorização de 
-                        fatores subjetivos faz parte de um processo.
+                        Primeiro sistema operacional voltado ao ensino de segurança da informação, 
+                        focado em você, aluno de TI, pensado e criado para se enquadrar em seus estudos!
                     </p>
                     <a class="waves-effect waves-light btn btn-k k-cian-darken font-bold hoverable">BAIXE AGORA</a>
                 </div>
@@ -114,14 +149,16 @@
                     <div class="col s12 m8">
                         <h3 class="font-bold k-red-text">Totalmente OpenSource</h3>
                         <p class="white-text">
-                            Todas estas questões, devidamente ponderadas, levantam dúvidas sobreTodas estas questões, devidamente ponderadas, levantam dúvidas sobre
-                            Todas estas questões, devidamente ponderadas, levantam dúvidas sobre
+                            O que é um projeto institucional sem o apoio daqueles que 
+                            irão usar? Projeto pensado nos estudantes, projeto desenvolvido 
+                            com ajuda dos estudantes! Toda nossa documentação, desenvolvimento e 
+                            ideias futuras são feitas com o apoio e incentivo da comunidade.
                         </p>
-                        <a href="button" class="btn-large btn-k k-red font-semibold">
+                        <a href="https://github.com/unamecorporation" class="btn-large btn-k k-red font-semibold">
                             <i class="mdi mdi-github-box"></i> GITHUB
                         </a>
-                        <a href="button" class="btn-large btn-k k-cian-darken font-bold">
-                            <i class="mdi mdi-github-box"></i> CONTRIBUA
+                        <a href="" class="btn-large btn-k k-cian-darken font-bold">
+                            <i class="mdi mdi-github-box"></i> DOCUMENTAÇÃO
                         </a>
                     </div>
                 </div>
@@ -437,10 +474,45 @@
             </article>
         </section>
 
+        <footer class="page-footer k-red ">
+            <div class="container center">
+                <div class="row">
+                    <form class="col s12 m6 offset-m3">
+                        <h3 class="k-cian-darken-text font-bold">Receba novidades do KurupiraOS!</h3>
+
+                        <div class="row white-text">
+                            <i class="material-icons">account_box</i>Nome:
+                            <div class="input-field inline">
+                                <input id="nome" name="nome" type="text">
+                                <label for="first_name"></label>
+                            </div>
+                        </div>
+                        <div class="row white-text">
+                            <i class="material-icons">email</i>Email:
+                            <div class="input-field inline">
+                                <input id="email" type="email" name="email" class="validate">
+                                <label for="email"></label>
+                            </div>
+                        </div>
+
+                        <button type="submit" value="Submit" class="btn btn-k k-cian-darken white-text">
+                            Receber noticias
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="footer-copyright center">
+                <div class="container">
+                    Uname Corp.
+                </div>
+            </div>
+        </footer>
         
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/init.js"></script> <!-- init functions --> 
+        <script type="text/javascript" src="js/contador.js"></script> <!-- contador --> 
     </body>
 </html>
