@@ -295,13 +295,17 @@ code::-moz-selection{
  }
 
 
-
-
  /* material icons edits */
 
  a.mdi{
      cursor: pointer;
  }
+
+ .mdi-large{
+    font-size: 6rem;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
 
 
 /* navbar edits */
@@ -367,7 +371,7 @@ nav li a.active{
 
 @media only screen and (max-width: 452px){
     .parallax-slide{
-        height: 550px
+        height: 700px
     }
 }
 
