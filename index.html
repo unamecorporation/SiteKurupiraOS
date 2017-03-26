@@ -20,9 +20,9 @@
                 <div class="nav-wrapper">
                     <a href="#!" class="brand-logo left">KurupiraOS</a>
                     <ul class="right">
-                        <li class=""><a class="active" href="#">Home</a></li>
-                        <li class=""><a href="#">Equipe</a></li>
-                        <li class=""><a href="#">Docs & Tools</a></li>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <!-- <li><a href="">Docs & Tools</a></li> SAIRÁ NA VERSÃO FINAL -->
                         <li><a href="#" class="waves-effect waves-light btn-large k-cian-darken font-semibold disabled">DOWNLOAD EM BREVE</a></li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
                     <br><br>
                     Lançamento em:
                 </h2>
-                <div class="contagem white">
+                <div class="contagem white"> <!-- contador pro Lançamento -->
                     <table>
                         <tr>
                             <td>
@@ -198,30 +198,63 @@
         <br><br>
 
         <!-- equipe -->
-        <section class="container">
+        <section id="equipe" class="container">
             <article class="row center">
                 <h3 class="k-red-text font-bold">Equipe</h3>
-
                 <div class="row">
-                    <div class="col s6 m3"> <!-- Luigi -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/luigi.png">
+                    <div class="col s6 m3 equipe-avatar"> <!-- Rafaela -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/rafaela.jpg">
                         <h5 class="k-cian-darken-text font-bold">
-                            Guilherme Luigi<br>
+                            Rafaela Góes<br>
                             <spam class="font-thin">Luigieiro</spam>
                         </h5>
 
                         <div class="divider"></div>
 
                         <h5 class="font-bold">
-                            Desenvolvedor - front-end
+                            Administradora
                         </h5>
 
                         <div class="divider"></div>
-                        <a href="" class="mdi mdi-github-box mdi-36px"  target="_blank"></a>
-                        <a href="" class="mdi mdi-linkedin-box mdi-36px"  target="_blank"></a>
 
                     </div>
-                    <div class="col s6 m3"> <!-- Jesus -->
+                    <div class="col s6 m3 equipe-avatar"> <!-- Neto -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/neto.jpg">
+                        <h5 class="k-cian-darken-text font-bold">
+                            Neto Chaves<br>
+                            <spam class="font-thin">DcT</spam>
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <h5 class="font-bold">
+                            Desenvolvedor - Backend
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <a href="http://github.com/netochaves" class="mdi mdi-github-box mdi-36px"></a>
+
+                    </div>
+                    <div class="col s6 m3 equipe-avatar"> <!-- Tristão -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/ricardo.png">
+                        <h5 class="k-cian-darken-text font-bold">
+                            Ricardo Porfirio<br>
+                            <spam class="font-thin">Tristão</spam>
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <h5 class="font-bold">
+                            Desenvolvedor - Backend
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <a href="https://github.com/ricardoporfirio" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
+
+                    </div>
+                    <div class="col s6 m3 equipe-avatar"> <!-- Jesus -->
                         <img class="circle responsive-img z-depth-2" src="img/equipe/jesus.jpg">
                         <h5 class="k-cian-darken-text font-bold">
                             Jesus<br>
@@ -240,45 +273,9 @@
                         <a href="https://www.linkedin.com/in/andersonjsantos" class="mdi mdi-linkedin-box mdi-36px"  target="_blank"></a>
 
                     </div>
-                    <div class="col s6 m3"> <!-- Tristão -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/ricardo.png">
-                        <h5 class="k-cian-darken-text font-bold">
-                            Ricardo Porfirio<br>
-                            <spam class="font-thin">Tristão</spam>
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <h5 class="font-bold">
-                            Desenvolvedor - Backend
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <a href="https://github.com/ricardoporfirio" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
-
-                    </div>
-                    <div class="col s6 m3"> <!-- Flavio -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/flavio.jpg">
-                        <h5 class="k-cian-darken-text font-bold">
-                            Flávio Henrique<br>
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <h5 class="font-bold">
-                            Gerente de Projetos
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <a href="https://github.com/henriqueflavio7" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
-                        <a href="" class="mdi mdi-linkedin-box mdi-36px"></a>
-
-                    </div>
                 </div>
                 <div class="row">
-                    <div class="col s6 m3"> <!-- Vandal -->
+                    <div class="col s6 m3 equipe-avatar"> <!-- Vandal -->
                         <img class="circle responsive-img z-depth-2" src="img/equipe/vandal.jpg">
                         <h5 class="k-cian-darken-text font-bold">
                             Allan Garcez<br>
@@ -297,43 +294,7 @@
                         <a href="https://www.linkedin.com/in/allan-garcez-136a83a3/" class="mdi mdi-linkedin-box mdi-36px" target="_blank"></a>
 
                     </div>
-                    <div class="col s6 m3"> <!-- Diego -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/diego.jpg">
-                        <h5 class="k-cian-darken-text font-bold">
-                            Diego Costa<br>
-                            <spam class="font-thin">CEO da TSI</spam>
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <h5 class="font-bold">
-                            Patrocinador
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <a href="https://github.com/diegooocosta" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
-                        <a href="https://www.linkedin.com/in/diegooocosta" class="mdi mdi-linkedin-box mdi-36px" target="_blank"></a>
-
-                    </div>
-                    <div class="col s6 m3"> <!-- Pizzo -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/pizzo.jpg">
-                        <h5 class="k-cian-darken-text font-bold">
-                            Raphael Pizzo<b>
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <h5 class="font-bold">
-                            Engenheiro de Software
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <a href="https://www.linkedin.com/in/raphael-pizzo-bba19649" class="mdi mdi-linkedin-box mdi-36px" target="_blank"></a>
-
-                    </div>
-                    <div class="col s6 m3"> <!-- Zero -->
+                    <div class="col s6 m3 equipe-avatar"> <!-- Zero -->
                         <img class="circle responsive-img z-depth-2" src="img/equipe/zero.jpg">
                         <h5 class="k-cian-darken-text font-bold">
                             Filipe Jessé<br>
@@ -352,27 +313,7 @@
                         <a href="https://www.linkedin.com/in/filipe-jesse" class="mdi mdi-linkedin-box mdi-36px" target="_blank"></a>
 
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col s6 m3"> <!-- Neto -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/neto.jpg">
-                        <h5 class="k-cian-darken-text font-bold">
-                            Neto Chaves<br>
-                            <spam class="font-thin">DcT</spam>
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <h5 class="font-bold">
-                            Desenvolvedor - Backend
-                        </h5>
-
-                        <div class="divider"></div>
-
-                        <a href="http://github.com/netochaves" class="mdi mdi-github-box mdi-36px"></a>
-
-                    </div>
-                    <div class="col s6 m3"> <!-- Roger -->
+                    <div class="col s6 m3 equipe-avatar"> <!-- Roger -->
                         <img class="circle responsive-img z-depth-2" src="img/equipe/roger.jpg">
                         <h5 class="k-cian-darken-text font-bold">
                             Roger Monteiro<br>
@@ -390,8 +331,59 @@
                         <a href="http://github.com/RogerMonteiro124" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
 
                     </div>
-                    
-                    <div class="col s6 m3"> <!-- Marcelo -->
+                    <div class="col s6 m3 equipe-avatar"> <!-- Luigi -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/luigi.png">
+                        <h5 class="k-cian-darken-text font-bold">
+                            Guilherme Luigi<br>
+                            <spam class="font-thin">Luigieiro</spam>
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <h5 class="font-bold">
+                            Desenvolvedor - front-end
+                        </h5>
+
+                        <div class="divider"></div>
+                        <a href="" class="mdi mdi-github-box mdi-36px"  target="_blank"></a>
+                        <a href="" class="mdi mdi-linkedin-box mdi-36px"  target="_blank"></a>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m3 equipe-avatar"> <!-- Paulo -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/paulo.jpg">
+                        <h5 class="k-cian-darken-text font-bold">
+                            Rosângelo<br>
+                            <spam class="font-thin">Fundador Eleva</spam>
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <h5 class="font-bold">
+                            Diretor de Arte
+                        </h5>
+
+                        <div class="divider"></div>
+
+                    </div>
+                    <div class="col s6 m3 equipe-avatar"> <!-- Rosângelo -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/rosangelo.jpg">
+                        <h5 class="k-cian-darken-text font-bold">
+                            Rosângelo<br>
+                            <spam class="font-thin">Fundador Eleva</spam>
+                        </h5>
+
+                        <div class="divider"></div>
+
+                        <h5 class="font-bold">
+                            Diretor de Arte
+                        </h5>
+
+                        <div class="divider"></div>
+
+                    </div>
+                    <div class="col s6 m3 equipe-avatar"> <!-- Marcelo -->
                         <img class="circle responsive-img z-depth-2" src="img/equipe/marcelo.jpg">
                         <h5 class="k-cian-darken-text font-bold">
                             Marcelo Freitas<br>
@@ -409,60 +401,62 @@
                         <a href="https://www.linkedin.com/in/marceloeafreitas" class="mdi mdi-linkedin-box mdi-36px"></a>
 
                     </div>
-                    
-                    <div class="col s6 m3"> <!-- Rafaela -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/rafaela.jpg">
+                    <div class="col s6 m3 equipe-avatar"> <!-- Pizzo -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/pizzo.jpg">
                         <h5 class="k-cian-darken-text font-bold">
-                            Rafaela Góes<br>
-                            <spam class="font-thin">Luigieiro</spam>
+                            Raphael Pizzo<b>
                         </h5>
 
                         <div class="divider"></div>
 
                         <h5 class="font-bold">
-                            Administradora
+                            Engenheiro de Software
                         </h5>
 
                         <div class="divider"></div>
 
+                        <a href="https://www.linkedin.com/in/raphael-pizzo-bba19649" class="mdi mdi-linkedin-box mdi-36px" target="_blank"></a>
+
                     </div>
-                    
                 </div>
                 <div class="row">
- 
-                    <div class="col s6 offset-m3 m3"> <!-- Paulo -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/paulo.jpg">
+                    <div class="col s6 m3 offset-m3 equipe-avatar"> <!-- Flavio -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/flavio.jpg">
                         <h5 class="k-cian-darken-text font-bold">
-                            Rosângelo<br>
-                            <spam class="font-thin">Fundador Eleva</spam>
+                            Flávio Henrique<br>
                         </h5>
 
                         <div class="divider"></div>
 
                         <h5 class="font-bold">
-                            Diretor de arte
+                            Gerente de Projetos
                         </h5>
 
                         <div class="divider"></div>
 
+                        <a href="https://github.com/henriqueflavio7" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
+                        <a href="" class="mdi mdi-linkedin-box mdi-36px"></a>
+
                     </div>
-                    <div class="col s6 m3"> <!-- Rosângelo -->
-                        <img class="circle responsive-img z-depth-2" src="img/equipe/rosangelo.jpg">
+                    <div class="col s6 m3 equipe-avatar"> <!-- Diego -->
+                        <img class="circle responsive-img z-depth-2" src="img/equipe/diego.jpg">
                         <h5 class="k-cian-darken-text font-bold">
-                            Rosângelo<br>
-                            <spam class="font-thin">Fundador Eleva</spam>
+                            Diego Costa<br>
+                            <spam class="font-thin">CEO da TSI</spam>
                         </h5>
 
                         <div class="divider"></div>
 
                         <h5 class="font-bold">
-                            Dev. front-end
+                            Patrocinador
                         </h5>
 
                         <div class="divider"></div>
 
+                        <a href="https://github.com/diegooocosta" class="mdi mdi-github-box mdi-36px" target="_blank"></a>
+                        <a href="https://www.linkedin.com/in/diegooocosta" class="mdi mdi-linkedin-box mdi-36px" target="_blank"></a>
+
                     </div>
- 
                 </div>
 
             </article>
