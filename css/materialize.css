@@ -2,6 +2,7 @@
  * Materialize v0.98.1 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ * Correções ()
  */
 .materialize-red {
   background-color: #e51c23 !important;
@@ -2158,6 +2159,7 @@ html {
  * Remove default margin.
  */
 body {
+  overflow-x: hidden; /*retira rolagem para o lado || aquele puxadinho no css */
   margin: 0;
 }
 
@@ -2543,6 +2545,7 @@ html {
 }
 
 ul:not(.browser-default) {
+  width: auto !important; 
   padding-left: 0;
   list-style-type: none;
 }
@@ -3256,6 +3259,8 @@ td, th {
 
 .right {
   float: right !important;
+  display: inline !important;
+  width: auto;
 }
 
 .no-select, input[type=range],
@@ -3348,12 +3353,12 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 90%;
+  width: 95%;
 }
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%;
+    width: 95%;
   }
 }
 
@@ -3671,40 +3676,40 @@ nav ul a span.badge {
 .row .col.push-s12 {
   left: 100%;
 }
-
+/* Correção erro de porcentagem devido a margem interna aplicada*/
 @media only screen and (min-width: 601px) {
   .row .col.m1 {
-    width: 8.3333333333%;
+    width: 8%;
   }
   .row .col.m2 {
-    width: 16.6666666667%;
+    width: 16%;
   }
   .row .col.m3 {
-    width: 25%;
+    width: 24%;
   }
   .row .col.m4 {
-    width: 33.3333333333%;
+    width: 31%; 
   }
   .row .col.m5 {
-    width: 41.6666666667%;
+    width: 41%;
   }
   .row .col.m6 {
     width: 50%;
   }
   .row .col.m7 {
-    width: 58.3333333333%;
+    width: 58%;
   }
   .row .col.m8 {
-    width: 66.6666666667%;
+    width: 66%;
   }
   .row .col.m9 {
-    width: 75%;
+    width: 74%;
   }
   .row .col.m10 {
-    width: 83.3333333333%;
+    width: 82.5%;
   }
   .row .col.m11 {
-    width: 91.6666666667%;
+    width: 91%;
   }
   .row .col.m12 {
     width: 100%;
@@ -4149,6 +4154,7 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
+  width: auto !important;
   position: relative;
   height: 100%;
 }
@@ -4173,6 +4179,7 @@ nav .button-collapse i {
 }
 
 nav .brand-logo {
+  width: auto !important;
   position: absolute;
   color: #fff;
   display: inline-block;

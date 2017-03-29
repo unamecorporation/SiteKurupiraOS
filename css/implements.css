@@ -1,15 +1,17 @@
-/* kurupira colors */
-
-/* 
-colors doc: 
-    primary: #2C3E50
-    secundary: #2980B9
-
-colors kurupira:
-    primary: #E74C3C
-    secundary: #2C3E50
+/* kurupira colors 
+ * Correções ();
+ *
+ *colors doc: 
+ *   primary: #2C3E50
+ *   secundary: #2980B9
+ *
+ *colors kurupira:
+ *   primary: #E74C3C
+ *   secundary: #2C3E50
 */
-
+*{
+    /*! width: 100%; */
+}
 .k-cian-darken{
     background-color: #2C3E50 !important;
 }
@@ -321,10 +323,10 @@ nav ul li a:hover {
     transition-duration: 0.1s
 }
 
-nav li a.active{
+/* nav li a.active{
      border-bottom: 5px solid white;
 }
-
+*/
 
 /* carousel edits */
 
@@ -381,7 +383,9 @@ nav li a.active{
     }
 }
 .contagem{
+    margin-bottom: 10%;
     border-radius: 10px;
+    /*! position: absolute; */
 }
 
 .numero {
@@ -413,3 +417,6 @@ margin-top: -48px;
     }
 }
 
+.col s6 m3 > h5 .font-bold{
+    height: 50px;
+}
